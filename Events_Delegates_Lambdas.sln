@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{4B4CCC09-B02C-410B-B271-EAA8587B6F1B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{EF94B046-3B78-463A-8886-D7B9F47C4378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambdas", "Lambdas\Lambdas.csproj", "{AEC994CA-B031-497C-8C6C-1ECC5C9C1F70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionFunc", "Action\ActionFunc.csproj", "{73CF83B8-319B-403D-9082-2697AD217274}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{EF94B046-3B78-463A-8886-D7B9F47C4378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF94B046-3B78-463A-8886-D7B9F47C4378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF94B046-3B78-463A-8886-D7B9F47C4378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC994CA-B031-497C-8C6C-1ECC5C9C1F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC994CA-B031-497C-8C6C-1ECC5C9C1F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC994CA-B031-497C-8C6C-1ECC5C9C1F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC994CA-B031-497C-8C6C-1ECC5C9C1F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CF83B8-319B-403D-9082-2697AD217274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CF83B8-319B-403D-9082-2697AD217274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CF83B8-319B-403D-9082-2697AD217274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CF83B8-319B-403D-9082-2697AD217274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@
             worker.WorkCompleted += new EventHandler(Worker_WorkCompleted);
             //Delegate inference, compiler creates the delegate on its own, simpler syntax
             worker.WorkCompleted += Worker_WorkCompleted;
-            //This is a lambda function, which is pretty much an annonumous function with a specific signature
+            //This is a lambda function, which is pretty much an Anonymous function with a specific signature
             worker.WorkCompleted += (s, e) => {
                 Console.WriteLine("Work has completed lambda");
             };
